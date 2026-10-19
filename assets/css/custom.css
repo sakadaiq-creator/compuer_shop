@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "Battambang";
+  src: url("../fonts/Battambang/Battambang-Regular.ttf");
+}
+@font-face {
+  font-family: "Koulen";
+  src: url("../fonts/Koulen/Koulen-Regular.ttf");
+}
+@font-face {
+  font-family: "OpenSanRegular";
+  src: url("../fonts/Open_Sans/static/OpenSans-Regular.ttf");
+}
+@font-face {
+  font-family: "OpenSanSemiBold";
+  src: url("../fonts/Open_Sans/static/OpenSans-SemiBold.ttf");
+}
+body {
+  font-family: "Battambang", "OpenSanRegular";
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.nav-link {
+  font-family: "Koulen", "OpenSanSemiBold";
+  color: rgb(1, 1, 112);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.nav-link:hover {
+  font-family: "Koulen", "OpenSanSemiBold";
+  color: rgb(2, 91, 42);
+  scale: 1.1;
+  transition: 0.5s;
+}
+.category_card img {
+  height: 100px;
+  object-fit: contain;
+}
+.category_card {
+  padding: 5px;
+}
+/* Style Swiper Slide */
+swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #444;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/*End Style Swiper Slide */
